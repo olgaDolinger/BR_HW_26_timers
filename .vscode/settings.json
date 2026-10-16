@@ -1,0 +1,8 @@
+{
+  "cSpell.enabled": false,
+  "indentRainbow.excludedLanguages": ["cpp", "c", "plaintext"],
+  "indentRainbow.colors": ["rgba(0,0,0,0)"],
+  "indentRainbow.errorColor": "rgba(0,0,0,0)",
+  "indentRainbow.tabmixColor": "rgba(0,0,0,0)",
+  "idf.currentSetup": "C:\\esp\\v6.1\\esp-idf"
+}
