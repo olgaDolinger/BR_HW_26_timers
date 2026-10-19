@@ -81,7 +81,7 @@ void IRAM_ATTR onTimer() {
 void IRAM_ATTR onTick() { tickCounter++; }
 
 void IRAM_ATTR onChangeModeWithDebounce() {
-    unsigned long now = micros();
+    unsigned long now = millis();
 
     if (now - button_prev_time < DEBOUNCE_MS) return;
     isModeChanged = true;
